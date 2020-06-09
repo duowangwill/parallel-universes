@@ -3,7 +3,7 @@ var { cssSidebar,webpackSidebar } = nav
 module.exports = {
   title: '一蓑烟雨、烟池鱼',
   description: '一蓑烟雨、烟池鱼汪的个人站点',
-  base: '/parallel-universes/',
+  base: '/parallelUniverses/',
   head: [
     ['link', { rel: 'icon', href: '/icon.png' }]
   ],
