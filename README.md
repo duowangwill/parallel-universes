@@ -1,2 +1,0 @@
-# parallelUniverses
- My Parallel Universes
