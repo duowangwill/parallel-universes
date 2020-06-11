@@ -1,16 +1,16 @@
 ---
 home: true
 lang: zh-CN
-heroText: A  Personal Blog
-heroImage: /logo.jpg
+heroText: 码而不思则罔，思而不码则殆。
+heroImage: /logo.png
 actionText: 开始 →
 actionLink: /interview/
 features:
-- title: A Blog
-  details: 专注写作前端博客，记录日常所得。
-- title: For Me
-  details: 故九万里，则风斯在下矣，而后乃今培风；背负青天，而莫之夭阏者，而后乃今将图南。
-- title: For Interview
-  details: 广州，已入坑ღ( ´･ᴗ･` )比心
-footer: Copyright © 2019-present Wangtunan
+- title: 人生观
+  details: 木欣欣以向荣，泉涓涓而始流。
+- title: 价值观
+  details: 黄金白璧买歌笑，一醉累月轻王侯。
+- title: 世界观
+  details: 我见青山多妩媚，料青山见我应如是。
+footer: Copyright © 2020-present LingLun
 ---

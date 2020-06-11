@@ -1,8 +1,8 @@
 const nav = require('./utils/nav.js')
 var { cssSidebar,webpackSidebar } = nav
 module.exports = {
-  title: '一蓑烟雨、烟池鱼',
-  description: '一蓑烟雨、烟池鱼汪的个人站点',
+  title: '伶伦',
+  description: '回看射雕处，千里暮云平。',
   base: '/parallelUniverses/',
   dest: './dist',
   head: [
@@ -15,7 +15,7 @@ module.exports = {
   themeConfig: {
     lastUpdated: '最后更新时间',
     sidebar: 'auto',
-    repo: 'https://github.com/wangtunan/blog',
+    repo: 'https://duowangwill.github.io/parallelUniverses',
     repoLabel: 'Github',
     nav: [
       {
@@ -102,10 +102,10 @@ module.exports = {
         text: 'TypeScript',
         link: '/typescript/'
       },
-      {
-        text: 'VuePress',
-        link: '/vuepress/'
-      },
+      // {
+      //   text: 'VuePress',
+      //   link: '/vuepress/'
+      // },
       {
         text: 'CSS',
         items: [

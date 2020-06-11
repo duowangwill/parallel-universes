@@ -371,7 +371,7 @@ next: /JavaScript/
 module.exports = {
   themeConfig: {
     // 其它配置
-    repo: 'https://github.com/wangtunan/blog',
+    repo: 'https://duowangwill.github.io/parallelUniverses',
     repoLabel: 'Github',
     nav: [
       { text: '首页', link: '/' },
@@ -393,7 +393,7 @@ module.exports = {
 module.exports = {
   themeConfig: {
     // 其它配置
-    repo: 'https://github.com/wangtunan/blog',
+    repo: 'https://duowangwill.github.io/parallelUniverses',
     repoLabel: 'Github',
     editLinks: true,
     editLinkText: '编辑此页',
