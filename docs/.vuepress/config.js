@@ -1,137 +1,144 @@
-const nav = require('./utils/nav.js')
-var { cssSidebar,webpackSidebar } = nav
+const nav = require("./utils/nav.js");
+var { cssSidebar, webpackSidebar } = nav;
 module.exports = {
-  title: '伶伦',
-  description: '回看射雕处，千里暮云平。',
-  base: '/parallelUniverses/',
-  dest: './dist',
-  head: [
-    ['link', { rel: 'icon', href: '/icon.png' }]
-  ],
+  title: "伶伦",
+  description: "回看射雕处，千里暮云平。",
+  base: "/parallelUniverses/",
+  dest: "./dist",
+  head: [["link", { rel: "icon", href: "/icon.png" }]],
   port: 3000,
   markdown: {
-    lineNumbers: false
+    lineNumbers: false,
   },
   themeConfig: {
-    lastUpdated: '最后更新时间',
-    sidebar: 'auto',
-    repo: 'https://duowangwill.github.io/parallelUniverses',
-    repoLabel: 'Github',
+    lastUpdated: "最后更新时间",
+    sidebar: "auto",
+    repo: "https://duowangwill.github.io/parallelUniverses",
+    repoLabel: "Github",
     nav: [
       {
-        text: '前端面试之道',
-        link: '/interview/'
+        text: "前端面试之道",
+        link: "/interview/",
       },
       {
-        text: '前端书籍',
+        text: "前端书籍",
         items: [
           {
-            text: 'JavaScript书籍',
+            text: "JavaScript书籍",
             items: [
               {
-                text: '你不知道的JavaScript(上)',
-                link: '/books/javascript/know-up'
+                text: "你不知道的JavaScript(上)",
+                link: "/books/javascript/know-up",
               },
               {
-                text: '你不知道的JavaScript(中下)',
-                link: '/books/javascript/know-down'
+                text: "你不知道的JavaScript(中下)",
+                link: "/books/javascript/know-down",
               },
               {
-                text: 'JavaScript高级程序设计',
-                link: '/books/javascript/red-book'
+                text: "JavaScript高级程序设计",
+                link: "/books/javascript/red-book",
               },
               {
-                text: 'JavaScript数据结构和算法',
-                link: '/books/javascript/algorithm'
+                text: "JavaScript数据结构和算法",
+                link: "/books/javascript/algorithm",
               },
               {
-                text: 'JavaScript设计模式与开发实践',
-                link: '/designPattern/'
+                text: "JavaScript设计模式与开发实践",
+                link: "/designPattern/",
               },
               {
-                text: '深入理解ES6',
-                link: '/books/javascript/es6'
-              }
+                text: "深入理解ES6",
+                link: "/books/javascript/es6",
+              },
               // {
               //   text: '深入浅出Vue.js',
               //   link: '/books/javascript/vue'
               // }
-            ]
+            ],
           },
           {
-            text: 'Vue书籍',
+            text: "Vue书籍",
             items: [
               {
-                text: '深入浅出Vue.js',
-                link: '/books/javascript/vue.md'
-              }
-            ]
+                text: "深入浅出Vue.js",
+                link: "/books/javascript/vue.md",
+              },
+            ],
           },
           {
-            text: 'Git书籍',
+            text: "编程哲学",
             items: [
               {
-                text: '精通Git',
-                link: '/books/git/'
-              }
-            ]
+                text: "程序员修炼之道-从小工到专家",
+                link: "/books/programmingPhilosophy/",
+              },
+            ],
           },
           {
-            text: 'CSS书籍',
+            text: "Git书籍",
             items: [
               {
-                text: 'CSS揭秘',
-                link: '/books/css/secret'
-              }
-            ]
-          }
-        ]
+                text: "精通Git",
+                link: "/books/git/",
+              },
+            ],
+          },
+          {
+            text: "CSS书籍",
+            items: [
+              {
+                text: "CSS揭秘",
+                link: "/books/css/secret",
+              },
+            ],
+          },
+        ],
       },
       {
-        text: 'Vue',
+        text: "Vue",
         items: [
-          { text: 'Vue基础知识', link: '/vue/' },
-          { text: '深入浅出Vue.js书籍', link: '/books/javascript/vue.md' }
-        ]
+          { text: "Vue基础知识", link: "/vue/" },
+          { text: "深入浅出Vue.js书籍", link: "/books/javascript/vue.md" },
+        ],
       },
       {
-        text: 'Webpack',
-        link: '/webpack/'
+        text: "Webpack",
+        link: "/webpack/",
       },
       {
-        text: 'TypeScript',
-        link: '/typescript/'
+        text: "TypeScript",
+        link: "/typescript/",
       },
       // {
       //   text: 'VuePress',
       //   link: '/vuepress/'
       // },
       {
-        text: 'CSS',
+        text: "CSS",
         items: [
           {
-            text: 'CSS奇技淫巧',
-            link: '/css/'
+            text: "CSS奇技淫巧",
+            link: "/css/",
           },
           {
-            text: 'SCSS/SASS',
-            link: '/css/scss/'
-          }
-        ]
-      }
+            text: "SCSS/SASS",
+            link: "/css/scss/",
+          },
+        ],
+      },
     ],
     sidebar: {
-      '/css/': [cssSidebar],
-      '/webpack/': [webpackSidebar]
-    }
+      "/css/": [cssSidebar],
+      "/webpack/": [webpackSidebar],
+    },
   },
   configureWebpack: {
     resolve: {
       alias: {
-        '@images': '../images',
-        '@vuepress': '../images/vuepress',
-        '@components': '../.vuepress/components'
-      }
-    }
-  }
-}
+        "@images": "../images",
+        "@vuepress": "../images/vuepress",
+        "@components": "../.vuepress/components",
+      },
+    },
+  },
+};
